@@ -12,7 +12,7 @@ new one.
 Example:
 
 ```yml
-# gitlab-ci.yml
+# .gitlab-ci.yml
 build:
   stage: build
   script:
