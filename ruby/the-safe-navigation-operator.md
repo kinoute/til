@@ -1,6 +1,6 @@
 # The Safe Navigation Operator (&.) 
 
-A interesting addition to Ruby 2.3 was the "Safe Navigation Operator (`&.`)".
+An interesting addition to Ruby 2.3 was the "Safe Navigation Operator (`&.`)".
 It helps us dealing with `nil` values in a chaining condition. Let's say we have an
 `order` made by a `customer` and we want to get the customer's `id`. To be
 safe, we could do:
