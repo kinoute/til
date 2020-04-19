@@ -5,6 +5,7 @@ variety of languages and technologies.
 
 # Categories
 
+* [postgres](postgres/README.md)
 * [rails](rails/README.md)
 * [unix](unix/README.md)
 * [vim](vim/README.md)
