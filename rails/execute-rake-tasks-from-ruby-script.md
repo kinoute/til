@@ -23,4 +23,4 @@ Rake::Task['db:setup'].invoke
 We first load our RoR environment to gain access to everything related to our
 application (not needed). Then we load and run the rake task `db:setup`.
 
-To run the script: `bundle exec rake db:setup`
+To run the script: `bundle exec lib/tasks/custom.rb`
