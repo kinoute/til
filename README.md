@@ -3,24 +3,14 @@
 > Today I Learned
 
 A collection of concise write-ups on small things I learn day to day across a
-variety of languages and technologies. These are things that don't really
-warrant a full blog post. These are things I've picked up by Learning In Public™
-and pairing with smart people at Hashrocket.
-
-For a steady stream of TILs, [sign up for my newsletter](https://tinyletter.com/jbranchaud).
-
-_909 TILs and counting..._
+variety of languages and technologies.
 
 ---
 
 ### Categories
 
-* [Ack](#ack)
-* [Chrome](#chrome)
-* [Clojure](#clojure)
 * [CSS](#css)
 * [Devops](#devops)
-* [Elixir](#elixir)
 * [Git](#git)
 * [Go](#go)
 * [HTML](#html)
@@ -30,66 +20,17 @@ _909 TILs and counting..._
 * [Mac](#mac)
 * [MongoDB](#mongodb)
 * [MySQL](#mysql)
-* [Phoenix](#phoenix)
 * [PostgreSQL](#postgresql)
 * [Rails](#rails)
-* [React](#react)
-* [React Native](#react-native)
-* [ReasonML](#reasonml)
 * [Ruby](#ruby)
 * [tmux](#tmux)
 * [Unix](#unix)
 * [Vim](#vim)
-* [VSCode](#vscode)
 * [Webpack](#webpack)
 * [Workflow](#workflow)
 
 ---
 
-### Ack
-
-- [ack --bar](ack/ack-bar.md)
-- [Case-Insensitive Search](ack/case-insensitive-search.md)
-- [List Available File Types](ack/list-available-file-types.md)
-
-### Chrome
-
-- [Access A Value Logged To The Console](chrome/access-a-value-logged-to-the-console.md)
-- [Chrome Supports Many Unix Keyboard Shortcuts](chrome/chrome-supports-many-unix-keyboard-shortcuts.md)
-- [Copy Some Data From The Console](chrome/copy-some-data-from-the-console.md)
-- [Duplicate The Current Tab](chrome/duplicate-the-current-tab.md)
-- [Easier Access To Network Throttling Controls](chrome/easier-access-to-network-throttling-controls.md)
-- [Pretty Print Tabular Data](chrome/pretty-print-tabular-data.md)
-- [Reference The Selected Node](chrome/reference-the-selected-node.md)
-- [Selecting DOM Elements Faster Than Ever](chrome/selecting-dom-elements-faster-than-ever.md)
-- [Simulating Various Connection Speeds](chrome/simulating-various-connection-speeds.md)
-- [Toggle Device Mode](chrome/toggle-device-mode.md)
-- [Toggle Open The Console Drawer](chrome/toggle-open-the-console-drawer.md)
-- [View Network Traffic For New Tabs](chrome/view-network-traffic-for-new-tabs.md)
-
-### Clojure
-
-- [Aggregation Using merge-with](clojure/aggregation-using-merge-with.md)
-- [Argument Requirements For A Function](clojure/argument-requirements-for-a-function.md)
-- [Combinations Of Items From A Sequence](clojure/combinations-of-items-from-a-sequence.md)
-- [Define Something Only Once](clojure/define-something-only-once.md)
-- [Evaluate One Liners With lein-exec](clojure/evaluate-one-liners-with-lein-exec.md)
-- [Expanding Macros](clojure/expanding-macros.md)
-- [Get The Value Of An Environment Variable](clojure/get-the-value-of-an-environment-variable.md)
-- [List Functions For A Namespace](clojure/list-functions-for-a-namespace.md)
-- [Load A File Into The REPL](clojure/load-a-file-into-the-repl.md)
-- [Mapping With An Index](clojure/mapping-with-an-index.md)
-- [Open JavaDocs](clojure/open-javadocs.md)
-- [Pretty Print The Last Thing](clojure/pretty-print-the-last-thing.md)
-- [Quick Clojure Docs](clojure/quick-clojure-docs.md)
-- [Reductions](clojure/reductions.md)
-- [Set Max Heap Size](clojure/set-max-heap-size.md)
-- [Specify the Directory of a Shell Command](clojure/specify-the-directory-of-a-shell-command.md)
-- [Splitting On Whitespace](clojure/splitting-on-whitespace.md)
-- [Swap Two Items in a Vector](clojure/swap-two-items-in-a-vector.md)
-- [Try A Clojure Project In The REPL](clojure/try-a-clojure-project-in-the-repl.md)
-- [Type of Anything](clojure/type-of-anything.md)
-- [When Overflow Is Desired](clojure/when-overflow-is-desired.md)
 
 ### CSS
 
@@ -130,61 +71,6 @@ _909 TILs and counting..._
 - [Running Out Of inode Space](devops/running-out-of-inode-space.md)
 - [SSL Certificates Can Cover Multiple Domains](devops/ssl-certificates-can-cover-multiple-domains.md)
 - [Wipe A Heroku Postgres Database](devops/wipe-a-heroku-postgres-database.md)
-
-### Elixir
-
-- [All Values For A Key In A Keyword List](elixir/all-values-for-a-key-in-a-keyword-list.md)
-- [Append To A Keyword List](elixir/append-to-a-keyword-list.md)
-- [Assert An Exception Is Raised](elixir/assert-an-exception-is-raised.md)
-- [Binary Representation Of A String](elixir/binary-representation-of-a-string.md)
-- [Check For A Substring Match](elixir/check-for-a-substring-match.md)
-- [Check List Membership](elixir/check-list-membership.md)
-- [Comparing DateTime Structs](elixir/comparing-datetime-structs.md)
-- [Compute Intermediate Values In A With Construct](elixir/compute-intermediate-values-in-a-with-construct.md)
-- [Compute md5 Digest Of A String](elixir/compute-md5-digest-of-a-string.md)
-- [Counting Records With Ecto](elixir/counting-records-with-ecto.md)
-- [Create A Date With The Date Sigil](elixir/create-a-date-with-the-date-sigil.md)
-- [Create A List Of Atoms](elixir/create-a-list-of-atoms.md)
-- [Creating A PID](elixir/creating-a-pid.md)
-- [Creating Indexes With Ecto](elixir/creating-indexes-with-ecto.md)
-- [Defining Multiple Clauses In An Anonymous Function](elixir/defining-multiple-clauses-in-an-anonymous-function.md)
-- [Determine The Latest Release Of A Hex Package](elixir/determine-the-latest-release-of-a-hex-package.md)
-- [Do You Have The Time?](elixir/do-you-have-the-time.md)
-- [Do You Have The Time? - Part 2](elixir/do-you-have-the-time-part-2.md)
-- [Documentation Lookup With Vim And Alchemist](elixir/documentation-lookup-with-vim-and-alchemist.md)
-- [Dynamically Generating Atoms](elixir/dynamically-generating-atoms.md)
-- [Execute Raw SQL In An Ecto Migration](elixir/execute-raw-sql-in-an-ecto-migration.md)
-- [Expose Internal Representation](elixir/expose-internal-representation.md)
-- [Include Captures With String.split](elixir/include-captures-with-string-split.md)
-- [Inspecting The Process Message Queue](elixir/inspecting-the-process-message-queue.md)
-- [List Functions For A Module](elixir/list-functions-for-a-module.md)
-- [Listing Files In IEx](elixir/listing-files-in-iex.md)
-- [Match On A Map In A With Construct](elixir/match-on-a-map-in-a-with-construct.md)
-- [Passing Around And Using Modules](elixir/passing-around-and-using-modules.md)
-- [Pattern Matching In Anonymous Functions](elixir/pattern-matching-in-anonymous-functions.md)
-- [Pipe Into A Case Statement](elixir/pipe-into-a-case-statement.md)
-- [Quitting IEx](elixir/quitting-iex.md)
-- [Range Into List Using Comprehensions](elixir/range-into-list-using-comprehensions.md)
-- [Refer To A Module Within Itself](elixir/refer-to-a-module-within-itself.md)
-- [Referencing Values In IEx's History](elixir/referencing-values-in-iexs-history.md)
-- [Remove One List From Another](elixir/remove-one-list-from-another.md)
-- [Replace Duplicates In A Keyword List](elixir/replace-duplicates-in-a-keyword-list.md)
-- [Requiring Keys For Structs](elixir/requiring-keys-for-structs.md)
-- [Reversing A List](elixir/reversing-a-list.md)
-- [Reversing A List - Part 2](elixir/reversing-a-list-part-2.md)
-- [Root Directory Of A Project](elixir/root-directory-of-a-project.md)
-- [Round Floats To Integers](elixir/round-floats-to-integers.md)
-- [Run ExUnit Tests In A Deterministic Order](elixir/run-exunit-tests-in-a-deterministic-order.md)
-- [Run The Test At A Specific Line Number](elixir/run-the-test-at-a-specific-line-number.md)
-- [Same Functions Should Be Grouped Together](elixir/same-functions-should-be-grouped-together.md)
-- [Skip A Specific Test](elixir/skip-a-specific-test.md)
-- [String Interpolation With Just About Anything](elixir/string-interpolation-with-just-about-anything.md)
-- [Unique Indexes With Ecto](elixir/unique-indexes-with-ecto.md)
-- [Updating Values In A Map](elixir/updating-values-in-a-map.md)
-- [Using When Clauses In A With Construct](elixir/using-when-clauses-in-a-with-construct.md)
-- [Virtual Fields With Ecto Schemas](elixir/virtual-fields-with-ecto-schemas.md)
-- [When Things Don't Match The With Statements](elixir/when-things-dont-match-the-with-statements.md)
-- [Word Lists For Atoms](elixir/word-lists-for-atoms.md)
 
 ### Git
 
@@ -397,16 +283,6 @@ _909 TILs and counting..._
 - [Show Tables That Match A Pattern](mysql/show-tables-that-match-a-pattern.md)
 - [Show Indexes For A Table](mysql/show-indexes-for-a-table.md)
 
-### Phoenix
-
-- [Bypass Template Rendering](phoenix/bypass-template-rendering.md)
-- [Check The Installed Version](phoenix/check-the-installed-version.md)
-- [Generate New App Without Brunch](phoenix/generate-new-app-without-brunch.md)
-- [Render A Template To A String](phoenix/render-a-template-to-a-string.md)
-- [Serve Static Assets From Custom Directory](phoenix/serve-static-assets-from-custom-directory.md)
-- [Specifying The Digest Directory](phoenix/specifying-the-digest-directory.md)
-- [Specifying The Server Port](phoenix/specifying-the-server-port.md)
-
 ### PostgreSQL
 
 - [A Better Null Display Character](postgres/a-better-null-display-character.md)
@@ -587,96 +463,6 @@ _909 TILs and counting..._
 - [Wipe Out All Precompiled Assets](rails/wipe-out-all-precompiled-assets.md)
 - [Write Reversible Migration To Set Default](rails/write-reversible-migration-to-set-default.md)
 - [Write Safer Where Clauses With Placeholders](rails/write-safer-where-clauses-with-placeholders.md)
-
-### React
-
-- [A Component Is Just A Bag Of Data](react/a-component-is-just-a-bag-of-data.md)
-- [Access The Latest Lifecycle Methods In An Old App](react/access-the-latest-lifecycle-methods-in-an-old-app.md)
-- [Accessing Env Vars In create-react-app](react/accessing-env-vars-in-create-react-app.md)
-- [Accessing Location Within @reach/router](react/accessing-location-within-reach-router.md)
-- [Allow md As An Extension With gatsby-mdx](react/allow-md-as-an-extension-with-gatsby-mdx.md)
-- [Alter The Display Name Of A Component](react/alter-the-display-name-of-a-component.md)
-- [Building A React App In The Browser](react/building-a-react-app-in-the-browser.md)
-- [Check The Type Of A Child Component](react/check-the-type-of-a-child-component.md)
-- [Conditionally Including Event Handler Functions](react/conditionally-including-event-handler-functions.md)
-- [Create Dynamically Named Custom React Components](react/create-dynamically-named-custom-react-components.md)
-- [create-react-app Comes With Lodash](react/create-react-app-comes-with-lodash.md)
-- [create-react-app Has A Default Test Setup File](react/create-react-app-has-a-default-test-setup-file.md)
-- [CSS !important Is Not Supported By Inline Styles](react/css-important-is-not-supported-by-inline-styles.md)
-- [Debug Jest Tests In create-react-app](react/debug-jest-tests-in-create-react-app.md)
-- [Defining State In A Simple Class Component](react/defining-state-in-a-simple-class-component.md)
-- [Destructure Variables As Props To A Component](react/destructure-variables-as-props-to-a-component.md)
-- [Dispatch Anywhere With Redux](react/dispatch-anywhere-with-redux.md)
-- [Dynamically Add Props To A Child Component](react/dynamically-add-props-to-a-child-component.md)
-- [Dynamically Create HTML Elements](react/dynamically-create-html-elements.md)
-- [Enforce Specific Values With PropTypes](react/enforce-specific-values-with-proptypes.md)
-- [Force A Component To Only Have One Child](react/force-a-component-to-only-have-one-child.md)
-- [Forcing A Child Remount With The Key Prop](react/forcing-a-child-remount-with-the-key-prop.md)
-- [Formik Connected Components](react/formik-connected-components.md)
-- [Formik's Validation Schema As A Function](react/formiks-validation-schema-as-a-function.md)
-- [Inactive And Active Component Styles With Radium](react/inactive-and-active-component-styles-with-radium.md)
-- [Inline Style Attributes Should Be Camel Cased](react/inline-style-attributes-should-be-camel-cased.md)
-- [Manage State In A Functional Component](react/manage-state-in-a-functional-component.md)
-- [Mapping Over One Or Many Children](react/mapping-over-one-or-many-children.md)
-- [Mock A Function That A Component Imports](react/mock-a-function-that-a-component-imports.md)
-- [Navigate With State Via @reach/router](react/navigate-with-state-via-reach-router.md)
-- [Pairing A Callback With A useState Hook](react/pairing-a-callback-with-a-usestate-hook.md)
-- [Passing Props Down To React-Router Route](react/passing-props-down-to-react-router-route.md)
-- [Prevent reach/router Redirect Error Screen In Dev](react/prevent-reach-router-redirect-error-screen-in-dev.md)
-- [Proxy To An API Server In Development With CRA](react/proxy-to-an-api-server-in-development-with-cra.md)
-- [Quickly Search For A Component With React DevTools](react/quickly-search-for-a-component-with-react-devtools.md)
-- [@reach/router Renders To A Div](react/reach-router-renders-to-a-div.md)
-- [Read Only Input Elements](react/read-only-input-elements.md)
-- [Rendering Multiple Nodes With Fragments](react/rendering-multiple-nodes-with-fragments.md)
-- [Specifying Dependencies Of A useEffect Hook](react/specifying-dependencies-of-a-useeffect-hook.md)
-- [Spelunking Through Components With Enzyme's Dive](react/spelunking-through-components-with-enzymes-dive.md)
-- [Sync Your react-router State With Redux](react/sync-your-react-router-state-with-redux.md)
-- [Test Files In create-react-app](react/test-files-in-create-react-app.md)
-- [Trigger Effect Only When The Component Mounts](react/trigger-effect-only-when-the-component-mounts.md)
-- [Update Formik Initial Values When Props Change](react/update-formik-initial-values-when-props-change.md)
-- [Upgrading To The Latest React In CodeSandbox](react/upgrading-to-the-latest-react-in-codesandbox.md)
-- [Use A Ref To Autofocus An Input](react/use-a-ref-to-autofocus-an-input.md)
-- [Use React 16 With Gatsby](react/use-react-16-with-gatsby.md)
-- [Use withRouter To Pass Down React-Router History](react/use-withrouter-to-pass-down-react-router-history.md)
-- [Visually Select A React Element For Inspection](react/visually-select-a-react-element-for-inspection.md)
-- [Who Is Your Favorite Child?](react/who-is-your-favorite-child.md)
-- [Wrap The Root Of A Gatsby App In A Component](react/wrap-the-root-of-a-gatsby-app-in-a-component.md)
-
-### React Native
-
-- [Avoid The Notch With SafeAreaView](react_native/avoid-the-notch-with-safeareaview.md)
-
-### ReasonML
-
-- [Break Out Of A While Loop](reason/break-out-of-a-while-loop.md)
-- [Compile Reason To Native With Dune](reason/compile-reason-to-native-with-dune.md)
-- [Compile Reason With An OCaml Package Using Dune](reason/compile-reason-with-an-ocaml-package-using-dune.md)
-- [Create A Map Of Strings](reason/create-a-map-of-strings.md)
-- [Create A Stream From An Array](reason/create-a-stream-from-an-array.md)
-- [Creating A 2D Array](reason/creating-a-2d-array.md)
-- [Data Structures With Self-Referential Types](reason/data-structures-with-self-referential-types.md)
-- [Defining Variants With Constructor Arguments](reason/defining-variants-with-constructor-arguments.md)
-- [Dynamically Create A Printf String Format](reason/dynamically-create-a-printf-string-format.md)
-- [Exhaustive Pattern Matching Of List Variants](reason/exhaustive-pattern-matching-of-list-variants.md)
-- [Format The Current File Within Vim](reason/format-the-current-file-within-vim.md)
-- [Generate A Native ReasonML Project With Pesy](reason/generate-a-native-reasonml-project-with-pesy.md)
-- [Generate Starter Reason Projects](reason/generate-starter-reason-projects.md)
-- [Helping The Compiler Help Us With Variants](reason/helping-the-compiler-help-us-with-variants.md)
-- [Inline Component Styles With Reason React](reason/inline-component-styles-with-reason-react.md)
-- [Is This A Directory Or A File?](reason/is-this-a-directory-or-a-file.md)
-- [Making Things Mutable](reason/making-things-mutable.md)
-- [Modifying A String With blit_string](reason/modifying-a-string-with-blit-string.md)
-- [Multi-Argument Functions As Syntactic Sugar](reason/multi-argument-functions-as-syntactic-sugar.md)
-- [Pattern Match On Exceptions](reason/pattern-match-on-exceptions.md)
-- [Quickly Bootstrap A React App Using Reason](reason/quickly-bootstrap-a-react-app-using-reason.md)
-- [Seeding And Generating Random Integers](reason/seeding-and-generating-random-integers.md)
-- [Stream A File Line By Line](reason/stream-a-file-line-by-line.md)
-- [String Interpolation With Integers And Sprintf](reason/string-interpolation-with-integers-and-sprintf.md)
-- [String Interpolation With Quoted Strings](reason/string-interpolation-with-quoted-strings.md)
-- [Trying Out ReasonML In CodeSandbox](reason/trying-out-reasonml-in-codesandbox.md)
-- [Two Ways To Find An Item In A List](reason/two-ways-to-find-an-item-in-a-list.md)
-- [Using Optional Labeled Function Arguments](reason/using-optional-labeled-function-arguments.md)
-- [Wrapping A Component For Use In JavaScript](reason/wrapping-a-component-for-use-in-javascript.md)
 
 ### Ruby
 
@@ -1012,14 +798,6 @@ _909 TILs and counting..._
 - [Whole Line Auto-Completion](vim/whole-line-auto-completion.md)
 - [Wrap With Some Room](vim/wrap-with-some-room.md)
 
-## VSCode
-
-- [Add The VSCode CLI To Your Path](vscode/add-the-vscode-cli-to-your-path.md)
-- [Advance Through Search Results](vscode/advance-through-search-results.md)
-- [Enable Breadcrumbs For Version 1.26 Release](vscode/enable-breadcrumbs-for-version-126-release.md)
-- [Open An Integrated Terminal Window](vscode/open-an-integrated-terminal-window.md)
-- [Toggle Between Terminals](vscode/toggle-between-terminals.md)
-
 ## Webpack
 
 - [Better Module Imports With Aliases](webpack/better-module-imports-with-aliases.md)
@@ -1047,18 +825,10 @@ current number of TILs and display the result in the command tray.
 
 ## About
 
-I shamelessly stole this idea from
-[thoughtbot/til](https://github.com/thoughtbot/til).
+Forked from:
 
-## Other TIL Collections
-
+* [jbranchaud/til](https://github.com/jbranchaud/til)
+* [thoughtbot/til](https://github.com/thoughtbot/til)
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
 * [thoughtbot/til](https://github.com/thoughtbot/til)
-
-## License
-
-&copy; 2015-2018 Josh Branchaud
-
-This repository is licensed under the MIT license. See `LICENSE` for
-details.
