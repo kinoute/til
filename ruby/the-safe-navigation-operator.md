@@ -24,8 +24,7 @@ scaffold, it generates a partial view `_form` for both the `new` and the `edit`
 actions. They both use the same form.
 
 If you want to add a dropdown menu to your form to let a user change the
-customer of an order nicely, you can make the dropdown menu that loads with the `customer` selected already in the menu:
-
+customer of an order nicely, you can make the dropdown menu load with the `customer` selected already in the list:
 
 ```ruby
 <%= f.select :customer_id, options_for_select(@customers, order.customer.id) %>
