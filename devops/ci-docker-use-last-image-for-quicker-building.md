@@ -1,11 +1,11 @@
 # CI/Docker: Use last image for quicker building 
 
-When you heavily use Continuous Integration on Gitlab for example, you build a
+When you heavily use Continuous Integration on Gitlab — for example —, you build a
 lot of new Docker Images. Some can take a long time to build, depending of how
 your (private) Docker registry is caching things.
 
 A nice way to build a new Docker Image for your project in the CI is to use the
-Docker build `--cache-from` argument. When you use it to build a new image, it will
+Docker `--cache-from` argument. When you use it to build a new image, it will
 use the previous image built for that project to accelerate the build of the
 new one.
 
@@ -23,5 +23,5 @@ build:
 ```
 
 The CI will first pull the last built image (if any) and use it as a cache to build the
-new one. It should reduce the built time a lot.
+new one. It should reduce the build time a lot.
 
