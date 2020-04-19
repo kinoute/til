@@ -5,7 +5,9 @@ variety of languages and technologies.
 
 # Categories
 
+* [rails](rails/README.md)
 * [unix](unix/README.md)
+* [vim](vim/README.md)
 
 # Contribute
 

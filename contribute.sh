@@ -28,8 +28,7 @@ echo ""
 echo -e "List of existing categories: \n"
 
 # listing all existing categories
-CATEGORIES=$(ls -d */ | cut -f1 -d'/')
-MD_CATEGORIES=$(echo "$CATEGORIES" | sed -r "s/^/* /")
+MD_CATEGORIES=$(ls -d */ | cut -f1 -d'/' | sed -r "s/^/* /")
 
 echo -e "$MD_CATEGORIES \n"
 
@@ -39,7 +38,13 @@ read -p "- Enter the category (if it doesn't exist, folder will be created): " C
 CATEGORY=$(echo "$CATEGORY" | tr '[:upper:]' '[:lower:]')
 
 # create folder category if it doesn't exist
-[ ! -d "$CATEGORY" ] && echo "$CATEGORY doesn't exist, creating folder.." && mkdir -p "$CATEGORY"
+if [ ! -d "$CATEGORY" ]; then
+    echo "$CATEGORY doesn't exist, creating folder.."
+    mkdir -p "$CATEGORY"
+
+    # updating the list of categories
+    MD_CATEGORIES=$(ls -d */ | cut -f1 -d'/' | sed -r "s/^/* /")
+fi
 
 # enter article's title
 read -p "- Enter the article title ($CATEGORY): " ARTICLE_TITLE
