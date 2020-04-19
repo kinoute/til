@@ -25,7 +25,7 @@ echo "#  TODAY I LEARNED  #"
 echo "#####################"
 echo ""
 
-echo "List of existing categories:"
+echo -e "List of existing categories: \n"
 
 # listing all existing categories
 CATEGORIES=$(ls -d */ | cut -f1 -d'/')
@@ -58,17 +58,17 @@ ARTICLE_FILE=$(echo "$ARTICLE_TITLE" | \
 [ -f "$CATEGORY/$ARTICLE_FILE.md" ] && echo "A article with this name already exists. Exiting.." && exit 1
 
 # create the markdown file and append the article's title
-echo -e "# $ARTICLE_TITLE \n\n" > "$CATEGORY/$ARTICLE_FILE.md"
+echo -e "# $ARTICLE_TITLE \n" > "$CATEGORY/$ARTICLE_FILE.md"
 
 # open markdown file and enable insert mode at the end directly
 echo ""
 echo "Opening the markdown file with VIM..."
 
-vim "+normal G$" +startinsert "$CATEGORY/$ARTICLE_FILE.md"
+vim "+normal Go" +startinsert "$CATEGORY/$ARTICLE_FILE.md"
 
 echo "Done writing the article."
 
-# update README with new category (if any)
+# regenerate main README file with new category (if any)
 echo "Updating the main README file with potential new category..."
 
 MD_CATEGORIES=$(echo "$MD_CATEGORIES" | sed -r "s/^\* (\w+)$/* \[\1](\1\/README.md)/g")
