@@ -3,13 +3,8 @@
 A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies.
 
----
-
 # Categories
 
-* [postgres](postgres/README.md)
-* [rails](rails/README.md)
-* [ruby](ruby/README.md)
 * [unix](unix/README.md)
 
 # Contribute
