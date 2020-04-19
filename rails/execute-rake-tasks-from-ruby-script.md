@@ -10,7 +10,7 @@ rake task from our script, we can do:
 ```ruby
 # script is located in lib/tasks/custom.rb
 
-# load our RoR environment just like "rails console" does (to access models)
+# load our RoR environment just like "rails console" does (to access models, not needed)
 require File.expand_path('../../config/environment', __dir__)
 require 'rake'
 
