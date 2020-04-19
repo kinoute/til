@@ -5,7 +5,7 @@ string being the filename. OSes are picky when it comes to filenames, some
 characters are not accepted.
 
 Therefore, you have to remove them or convert them to ones that are supported.
-We can do this by combinin `iconv` and `sed` like this:
+We can do this by combining `iconv` and `sed` like this:
 
 ```bash
 echo "Esperança do vôo do avião" | \
