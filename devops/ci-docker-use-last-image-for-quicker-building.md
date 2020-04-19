@@ -17,8 +17,7 @@ build:
   stage: build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
-    - docker pull "$CI_REGISTRY_IMAGE/project-image:latest" || true # to handle
-    first build where there is no image yet
+    - docker pull "$CI_REGISTRY_IMAGE/project-image:latest" || true # to handle first build where there is no image yet
     - docker build --cache-from "$CI_REGISTRY_IMAGE/project-image:latest" --tag "$CI_REGISTRY_IMAGE/project-image:$CI_COMMIT_SHA" --tag "$CI_REGISTRY_IMAGE/project-image:latest" .
     - docker push "$CI_REGISTRY_IMAGE/project-image:latest"
 ```
