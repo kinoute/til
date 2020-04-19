@@ -1,7 +1,7 @@
 # Replace text between two lines with `sed` 
 
 You can easily replace a text between two lines with the great `sed` command.
-Let's say we have a given file called `example.txt like this:
+Let's say we have a given file called `example.txt` like this:
 
 ```
 BEGIN
