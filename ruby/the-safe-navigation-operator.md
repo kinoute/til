@@ -1,4 +1,4 @@
-# The Safe Navigation Operator (&.) 
+# The Safe Navigation Operator (`&.) 
 
 An interesting addition to Ruby 2.3 was the "Safe Navigation Operator (`&.`)".
 It helps us to deal with `nil` values in a chaining condition. Let's say we have an
