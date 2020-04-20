@@ -25,3 +25,17 @@ build:
 The CI will first pull the last built image (if any) and use it as a cache to build the
 new one. It should reduce the build time a lot.
 
+## Docker-compose
+
+For `docker-compose`, a `cache_from` option is available since the version 3.4. You can use it like this to build your images faster:
+
+```yml
+# docker-compose.yml
+build:
+  context: .
+  cache_from:
+    - corp/web_app:3.14
+```
+
+The CI will use the image `corp/web_app:3.14` as a cache to build your image.
+
