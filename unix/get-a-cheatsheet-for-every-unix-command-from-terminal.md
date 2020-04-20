@@ -1,4 +1,4 @@
-# Get a cheatsheet for eveany UNIX command from terminal 
+# Get a cheatsheet for every UNIX command from terminal 
 
 `man` can be useful when you want to learn more about a UNIX command. You can
 see all the different arguments and options available. 
