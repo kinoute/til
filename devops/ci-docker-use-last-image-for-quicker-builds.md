@@ -1,4 +1,4 @@
-# CI/Docker: Use last image for quicker building 
+# CI/Docker: Use last image for quicker builds
 
 When you heavily use Continuous Integration on Gitlab — for example —, you build a
 lot of new Docker Images. Some can take a long time to build, depending of how
