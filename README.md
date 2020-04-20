@@ -6,6 +6,7 @@ variety of languages and technologies.
 # Categories
 
 * [devops](devops/README.md)
+* [mac](mac/README.md)
 * [postgres](postgres/README.md)
 * [rails](rails/README.md)
 * [ruby](ruby/README.md)
