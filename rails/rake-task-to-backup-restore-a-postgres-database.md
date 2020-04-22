@@ -216,8 +216,8 @@ end
 whenever --update-crontab
 ```
 
-You can verify if the task was properly scheduled by typing `crontab -l` and cheek if you see your cronjob related to the backup task.
+You can verify if the task was properly scheduled by typing `crontab -l` and check if you see your cronjob related to the backup task.
 
-Don't forget in your dev/production workflow to use this command to update crontabs when starting your application/docker container.
+Don't forget in your dev/production workflow to use this command to update crontabs when starting your application/docker container — in case you pushed/added/edited schedules in `config/schedule.rb`.
 
 Source: https://gist.github.com/hopsoft/56ba6f55fe48ad7f8b90
