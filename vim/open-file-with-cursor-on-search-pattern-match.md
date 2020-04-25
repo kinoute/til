@@ -20,7 +20,7 @@ Now I can open the file `/etc/hosts` with vim and go directly to this line:
 vim +19838 /etc/hosts
 ```
 
-I could also open the file with vim and use its regex functionality to match the rule I'm looking for. But there is a better approach: you can combine the `grep` regex feature with vim's feature to open a file and go to a specific line:
+I could also open the file with vim and use its regex functionality to match the rule I'm looking for. **But there is a better approach:** you can combine the `grep` regex feature with vim's feature to open a file and go to a specific line:
 
 ```bash
 # vim +/regex file
