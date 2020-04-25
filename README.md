@@ -3,6 +3,10 @@
 A collection of concise write-ups on small things I learn day to day across a
 variety of languages and technologies.
 
+# Last Article
+
+**[25/04/2020]:** [Open file with cursor on search pattern match (***vim***)](vim/open-file-with-cursor-on-search-pattern-match.md)
+
 # Categories
 
 * [devops](devops/README.md)
@@ -27,7 +31,7 @@ It will:
 2. Ask you to enter the title of the article (like "How to see my public IP")
 3. Create a markdown file in the category folder and open it with vim directly in insert mode at the end of the file.
 4. Once you're done writing the article, save it and close vim with the command `:wq`.
-5. It will update the main `README.md` file in case you created a new category.
+5. It will update the main `README.md` file with updated "Last Article" and "Categories" sections.
 6. It will update the category `README.md` file to append a link to the new article you just wrote.
 
 You're now ready to commit and push the new article!

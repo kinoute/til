@@ -73,9 +73,14 @@ vim "+normal Go" +startinsert "$CATEGORY/$ARTICLE_FILE.md"
 
 echo "Done writing the article."
 
-# regenerate main README file with new category (if any)
-echo "Updating the main README file with potential new category..."
+# let's add the last article and categories in the main README for curious people
+echo "Updating main README.md with last article and updated categories"
 
+# link to the last article written and its date
+LAST_ARTICLE="**[$(date +%d/%m/%Y)]:** [$ARTICLE_TITLE (***$CATEGORY***)]($CATEGORY/$ARTICLE_FILE.md)"
+sed -i  "/# Last Article/,/# Categories/c\# Last Article\n\n$LAST_ARTICLE\n\n# Categories" README.md
+
+# update categories in case a new one was introduced
 MD_CATEGORIES=$(echo "$MD_CATEGORIES" | sed -r "s/^\* (\w+)$/* \[\1](\1\/README.md)/g")
 MD_CATEGORIES=$(printf '%q' "$MD_CATEGORIES" | cut -d "'" -f 2)
 sed -i  "/# Categories/,/# Contribute/c\# Categories\n\n$MD_CATEGORIES\n\n# Contribute" README.md
