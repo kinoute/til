@@ -8,9 +8,9 @@ script running in the same environment as our RoR application. To call this
 rake task from our script, we can do:
 
 ```ruby
-# script is located in lib/tasks/custom.rb
+# script is located in lib/scripts/custom.rb
 
-# load our RoR environment just like "rails console" does (to access models, not needed)
+# load our RoR environment just like "rails console" does
 require File.expand_path('../../config/environment', __dir__)
 require 'rake'
 
@@ -21,6 +21,6 @@ Rake::Task['db:setup'].invoke
 ```
 
 We first load our RoR environment to gain access to everything related to our
-application (not needed). Then we load and run the rake task `db:setup`.
+application. Then we load and run the rake task `db:setup`.
 
-To run the script: `bundle exec lib/tasks/custom.rb`
+To run the script: `bundle exec lib/scripts/custom.rb`
