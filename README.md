@@ -5,7 +5,7 @@ variety of languages and technologies.
 
 # Last Article
 
-**[25/04/2020]:** [Function to extract all archive formats (***unix***)](unix/function-to-extract-all-archive-formats.md)
+**[11/05/2020]:** [Download markdown images and update paths inside files (***unix***)](unix/download-markdown-images-and-update-paths-inside-files.md)
 
 # Categories
 
