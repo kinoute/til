@@ -1,3 +1,3 @@
 # javascript 
 
-* [Do something when user stop typing](do-something-when-user-stop-typing.md)
+* [Do something only when user stop typing](do-something-only-when-user-stop-typing.md)
