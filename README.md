@@ -5,11 +5,12 @@ variety of languages and technologies.
 
 # Last Article
 
-**[11/05/2020]:** [Download markdown images and update paths inside files (***unix***)](unix/download-markdown-images-and-update-paths-inside-files.md)
+**[13/05/2020]:** [Do something only when user stop typing (***javascript***)](javascript/do-something-only-when-user-stop-typing.md)
 
 # Categories
 
 * [devops](devops/README.md)
+* [javascript](javascript/README.md)
 * [mac](mac/README.md)
 * [postgres](postgres/README.md)
 * [rails](rails/README.md)
