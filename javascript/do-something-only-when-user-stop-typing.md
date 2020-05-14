@@ -38,7 +38,7 @@ search_input.addEventListener('keyup', function (e) {
     // Make a new timeout set to go off in 1000ms (1 second)
     timeout = setTimeout(function () {
         // Submit the AJAX form in Ruby on Rails
-        document.querySelector('form').dispatchEvent(new Event('submit', {bubbles: true}));
+        Rails.fire(document.querySelector('form'), 'submit');
         }, 1000);
 });
 ```
