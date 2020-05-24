@@ -29,14 +29,14 @@ let search_input = document.getElementById('search-input');
 let timeout = null;
 
 // Listen for keystroke events
-search_input.addEventListener('keyup', function (e) {
+search_input.addEventListener('keyup', (e) => {
     // Clear the timeout if it has already been set.
     // This will prevent the previous task from executing
     // if it has been less than <MILLISECONDS>
     clearTimeout(timeout);
 
     // Make a new timeout set to go off in 1000ms (1 second)
-    timeout = setTimeout(function () {
+    timeout = setTimeout(() => {
         // Submit the AJAX form in Ruby on Rails
         Rails.fire(document.querySelector('form'), 'submit');
         }, 1000);
