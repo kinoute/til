@@ -30,6 +30,8 @@ brew cask install suspicious-package
 brew cask install webpquicklook
 # preview .csv files
 brew cask install quicklook-csv
+# see ipynb jupyter notebooks
+brew cask install jupyter-notebook-viewer
 ```
 
 You can find other generators on this repo:
